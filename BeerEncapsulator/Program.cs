@@ -153,8 +153,6 @@ namespace BeerEncapsulator
                 bool bottlesOK = isEnoughBottles(bottlesToPrepare);
                 int bottlesProduced;
 
-                Console.WriteLine(isBeerOK + " " + capsulesOK + " " + bottlesOK);
-
                 if(isBeerOK && capsulesOK && bottlesOK)
                 {
                     _avalaibleBeerVolume -= _beerVolume * bottlesToPrepare;
